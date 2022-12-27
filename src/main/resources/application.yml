@@ -1,0 +1,19 @@
+server:
+  port: 800
+
+spring:
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+      show-sql: true
+      jdbc:
+        lob:
+          non_contextual_creation:: true
+
+app:
+  version: 1.0.0
+
+
+
